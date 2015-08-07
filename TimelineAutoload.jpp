@@ -1,9 +1,5 @@
-#import (Config.path +'/Kernel/Autoload/MasterAutoload') = MasterAutoload;
-
 class TimelineAutoload extends MasterAutoload {
 
 	confModuleName = 'Timeline';
 
 }
-
-#export TimelineAutoload;
